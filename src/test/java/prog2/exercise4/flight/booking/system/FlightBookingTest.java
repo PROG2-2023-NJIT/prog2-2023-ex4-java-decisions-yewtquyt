@@ -15,6 +15,7 @@ public class FlightBookingTest
         assertEquals(FlightBooking.TripSource.valueOf("NANJING"), tripSource);
     }
 
+
     @Test
     public void testing_Setting_Up_Booking_Class_Using_Enum() {
         FlightBooking.BookingClass bookingClass = FlightBooking.BookingClass.FIRST;
